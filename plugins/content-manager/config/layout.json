@@ -1,0 +1,49 @@
+{
+  "place": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      }
+    }
+  },
+  "tag": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "item": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      }
+    }
+  },
+  "box": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      }
+    }
+  },
+  "note": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "description": {
+        "appearance": ""
+      },
+      "created": {
+        "appearance": ""
+      }
+    }
+  }
+}

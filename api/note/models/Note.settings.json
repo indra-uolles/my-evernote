@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "note",
+  "info": {
+    "name": "note",
+    "description": "Заметка"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "multiple": false,
+      "type": "string"
+    },
+    "description": {
+      "multiple": false,
+      "type": "text"
+    },
+    "created": {
+      "multiple": false,
+      "type": "date"
+    },
+    "user": {
+      "model": "user",
+      "via": "notes_user",
+      "plugin": "users-permissions"
+    }
+  }
+}

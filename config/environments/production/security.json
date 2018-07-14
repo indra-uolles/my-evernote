@@ -1,11 +1,11 @@
 {
   "csrf": {
-    "enabled": true,
+    "enabled": false,
     "key": "_csrf",
     "secret": "_csrfSecret"
   },
   "csp": {
-    "enabled": true,
+    "enabled": false,
     "policy": [{
         "img-src": "'self' http:"
       },
@@ -30,7 +30,7 @@
     "mode": "block"
   },
   "cors": {
-    "enabled": true,
+    "enabled": false,
     "origin": "*",
     "expose": [
       "WWW-Authenticate",

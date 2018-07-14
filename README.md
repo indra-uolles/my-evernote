@@ -39,6 +39,8 @@ export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 ```
 
+Линкуем иконки: react-native link
+
 open another terminal and start MongoDB with $ mongod
 When you see the message: ‘waiting for connections on port 27017′ means that MongoDB is up and running. 
 
